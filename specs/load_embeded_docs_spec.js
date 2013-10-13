@@ -2,7 +2,7 @@ var db = require('./spec_helper').db,
     cradle = require('cradle'), 
     Model = require('../lib/index');
 
-describe("Loading model with referenced models", function () {
+describe("Loading model with embeded models", function () {
   before(function (done) {
 
     var Author = Model.define('Author', {
